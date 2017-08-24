@@ -1,19 +1,19 @@
 class Dog
-	def make_up_name
-		@name = "sandy"		
+	def name=(new_value)
+		@name = new_value		
 	end
 
-	def talk
-		puts "#{@name} says Bark"		
+	def name
+		@name		
 	end
 
-	def move(destination)
-		puts "#{@name} runs to the #{destination}."
+	def age=(new_value)
+		@age = new_value
 		
 	end
 
-	def make_up_age
-		@age =5
+	def age
+		@age 
 		
 	end
 
@@ -23,9 +23,12 @@ class Dog
 	end
 end
 
-dog = Dog.new
-dog.make_up_name
-dog.talk
-dog.move("yard")
-dog.make_up_age
-dog.report_age
+fido = Dog.new
+fido.name = "Fido"
+fido.age = 2
+
+rex = Dog.new
+rex.name = "Rex"
+rex.age = 3
+fido.report_age
+rex.report_age
