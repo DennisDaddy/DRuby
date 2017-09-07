@@ -25,4 +25,6 @@ c.increament
 
 d.increament
 
+puts a.object_id
+
 
