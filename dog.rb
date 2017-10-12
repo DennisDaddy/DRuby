@@ -17,3 +17,4 @@ rex = Dog.new
 rex.sound("Rex")
 rex.move("kennel")
 rex.count_age
+rex.count_age
