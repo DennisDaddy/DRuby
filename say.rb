@@ -4,3 +4,4 @@ def say_moo
 end
 
 say_moo
+say_moo
